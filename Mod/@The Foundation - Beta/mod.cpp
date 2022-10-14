@@ -1,0 +1,11 @@
+name = "The Foundation";
+author = "Schlopp";
+picture = "Foundation_logo.paa"; 
+logo = "Foundation_logo.paa";
+logoSmall = "Foundation_logo.paa"; // SCP_CB_Logo.paa
+logoOver = "Foundation_logo.paa";
+action = "https://discord.gg/9gpmGxbwrG";
+dlcColor[] = {	0.5, 0.5, 0.5, 1};
+overview = "This mod aims to bring the SCP universe to the Arma 3 timeline. Using an arsenal of mostly vanilla assets, you will have to work towards the goal of Secure. Contain. Protect.";
+hideName = 0;
+hidePicture = 0;

@@ -1,0 +1,174 @@
+class CfgPatches
+{
+	class HS_M40
+	{
+		units[]={};
+		weapons[]={};
+		requiredVersion=1;
+		requiredAddons[]={};
+	};
+};
+class ItemCore;
+class UniformItem;
+class Uniform_Base: ItemCore
+{
+	class ItemInfo;
+};
+class cfgGlasses
+{
+	class None;
+	class HS_M40_B: None
+	{
+		scope=2;
+		author="Schlopp";
+		displayName="M40 Protective Mask (Black)";
+		picture="\HS_SCP\HS_Headwear_M40\data\icons\HS_Icon_M40_co.paa";
+		model="\US_M40_Masck_NBC\model\M40_MASK_v3.p3d";
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\HS_SCP\HS_Headwear_M40\data\HS_M40_Mask_B_co.paa",
+			"US_M40_Masck_NBC\data\M40_filter_co.paa",
+			"US_M40_Masck_NBC\data\M40_linsDark_co.paa"
+		};
+		identityTypes[]=
+		{
+			"G_NATO_default",
+			0,
+			"G_NATO_casual",
+			0,
+			"G_NATO_pilot",
+			0,
+			"G_NATO_recon",
+			0,
+			"G_NATO_SF",
+			0,
+			"G_NATO_sniper",
+			0,
+			"G_NATO_diver",
+			0,
+			"G_IRAN_default",
+			0,
+			"G_IRAN_diver",
+			0,
+			"G_GUERIL_default",
+			0,
+			"G_HAF_default",
+			0,
+			"G_CIVIL_female",
+			0,
+			"G_CIVIL_male",
+			0
+		};
+	};
+	class HS_M40_Filter_B: None
+	{
+		scope=2;
+		author="Schlopp";
+		displayName="M40 Protective Mask (Black, Filter)";
+		picture="\HS_SCP\HS_Headwear_M40\data\icons\HS_Icon_M40_co.paa";
+		model="\US_M40_Masck_NBC\model\M40_MASK.p3d";
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\HS_SCP\HS_Headwear_M40\data\HS_M40_Mask_B_co.paa",
+			"US_M40_Masck_NBC\data\M40_filter_co.paa",
+			"US_M40_Masck_NBC\data\M40_linsDark_co.paa"
+		};
+		identityTypes[]=
+		{
+			"G_NATO_default",
+			0,
+			"G_NATO_casual",
+			0,
+			"G_NATO_pilot",
+			0,
+			"G_NATO_recon",
+			0,
+			"G_NATO_SF",
+			0,
+			"G_NATO_sniper",
+			0,
+			"G_NATO_diver",
+			0,
+			"G_IRAN_default",
+			0,
+			"G_IRAN_diver",
+			0,
+			"G_GUERIL_default",
+			0,
+			"G_HAF_default",
+			0,
+			"G_CIVIL_female",
+			0,
+			"G_CIVIL_male",
+			0
+		};
+	};
+	class HS_M40_Hood_B: None
+	{
+		scope=2;
+		author="Schlopp";
+		displayName="M40 Protective Mask (Black, Filter, Hood)";
+		picture="\HS_SCP\HS_Headwear_M40\data\icons\HS_Icon_M40_co.paa";
+		model="\US_M40_Masck_NBC\model\M40_MASK_NBC.p3d";
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3",
+			"Camo4"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\HS_SCP\HS_Headwear_M40\data\HS_M40_Mask_B_co.paa",
+			"US_M40_Masck_NBC\data\M40_filter_green_co.paa",
+			"US_M40_Masck_NBC\data\M40_linsDark_co.paa",
+			"\HS_SCP\HS_Headwear_M40\data\HS_M40_Hood_B_co.paa"
+		};
+		identityTypes[]=
+		{
+			"G_NATO_default",
+			0,
+			"G_NATO_casual",
+			0,
+			"G_NATO_pilot",
+			0,
+			"G_NATO_recon",
+			0,
+			"G_NATO_SF",
+			0,
+			"G_NATO_sniper",
+			0,
+			"G_NATO_diver",
+			0,
+			"G_IRAN_default",
+			0,
+			"G_IRAN_diver",
+			0,
+			"G_GUERIL_default",
+			0,
+			"G_HAF_default",
+			0,
+			"G_CIVIL_female",
+			0,
+			"G_CIVIL_male",
+			0
+		};
+	};
+};
+class cfgMods
+{
+	author="Schlopp";
+	timepacked="1610501919";
+};
