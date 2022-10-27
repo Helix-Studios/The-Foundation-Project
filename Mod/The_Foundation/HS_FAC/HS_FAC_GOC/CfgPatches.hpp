@@ -1,10 +1,8 @@
 class CfgPatches {
     class HS_GOC_Fac {
         units[] = {
-            "HS_FND_APC_Otokar_GOC",
-            "HS_FND_IFV_Warrior_GOC",
-            "B_HSGOCFac_Rifleman_01",
-            "B_HSGOCFac_CBRN_Specialist_01"
+            "I_HSGOCFac_Rifleman_01",
+            "I_HSGOCFac_CBRN_Specialist_01"
         };
         weapons[] = {};
         requiredVersion = 1.62;

@@ -3,19 +3,8 @@
 // Generated with Arma 3 version 210.149954 on Stable branch
 // Generated with ALiVE version 1.17.0.2209061
 //////////////////////////////////////////////////////////////////////////////////
-
-class CfgFactionClasses {
-    class HS_GOC_Fac {
-        displayName = "Global Occult Coalition ";
-        side = 1;
-        flag = "\HS_UI_FN\Map\Markers\Flags\goc_ca.paa";
-        icon = "\HS_UI_FN\Map\Markers\Flags\goc_ca.paa";
-        priority = 2;
-    };
-};
-
 class CfgGroups {
-    class WEST {
+    class Indep {
 
         class HS_GOC_Fac {
             name = "Global Occult Coalition ";
@@ -23,207 +12,138 @@ class CfgGroups {
             class Infantry {
                 name = "Infantry";
 
-                class b_hsgocfac_infantry_fireteam_cbrn {
-                    name = "Fireteam (CBRN)";
-                    side = 1;
-                    faction = "hs_goc_fac";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_CBRN_01";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_CBRN_01";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_CBRN_01";
-                    };
-                    class Unit3 {
-                        position[] = {10,-10,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_CBRN_01";
-                    };
-                };
-
-                class b_hsgocfac_infantry_fireteam {
+                class i_hsgocfac_infantry_fireteam {
                     name = "Fireteam";
-                    side = 1;
-                    faction = "hs_goc_fac";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    side = 2;
+                    faction = "HS_GOC_Fac";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_01";
+                        side = 2;
+                        vehicle = "I_HSGOCFac_Rifleman_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_01";
+                        side = 2;
+                        vehicle = "I_HSGOCFac_Rifleman_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_01";
+                        side = 2;
+                        vehicle = "I_HSGOCFac_Rifleman_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_01";
+                        side = 2;
+                        vehicle = "I_HSGOCFac_Rifleman_01";
                     };
                 };
 
-                class b_hsgocfac_infantry_squad {
+                class i_hsgocfac_infantry_squad {
                     name = "Squad";
-                    side = 1;
-                    faction = "hs_goc_fac";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    side = 2;
+                    faction = "HS_GOC_Fac";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_01";
+                        side = 2;
+                        vehicle = "I_HSGOCFac_Rifleman_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_01";
+                        side = 2;
+                        vehicle = "I_HSGOCFac_Rifleman_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_01";
+                        side = 2;
+                        vehicle = "I_HSGOCFac_Rifleman_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_01";
+                        side = 2;
+                        vehicle = "I_HSGOCFac_Rifleman_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_01";
+                        side = 2;
+                        vehicle = "I_HSGOCFac_Rifleman_01";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_01";
+                        side = 2;
+                        vehicle = "I_HSGOCFac_Rifleman_01";
                     };
                     class Unit6 {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_01";
+                        side = 2;
+                        vehicle = "I_HSGOCFac_Rifleman_01";
                     };
                     class Unit7 {
                         position[] = {20,-20,0};
                         rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_01";
-                    };
-                    class Unit8 {
-                        position[] = {-20,-20,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_01";
+                        side = 2;
+                        vehicle = "I_HSGOCFac_Rifleman_01";
                     };
                 };
 
-                class b_hsgocfac_infantry_squad_cbrn {
-                    name = "Squad (CBRN)";
-                    side = 1;
-                    faction = "hs_goc_fac";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                class i_hsgocfac_infantry_cbrn_fireteam {
+                    name = "CBRN - Fireteam";
+                    side = 2;
+                    faction = "HS_GOC_Fac";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_CBRN_01";
+                        side = 2;
+                        vehicle = "I_HSGOCFac_CBRN_Specialist_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_CBRN_01";
+                        side = 2;
+                        vehicle = "I_HSGOCFac_CBRN_Specialist_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_CBRN_01";
+                        side = 2;
+                        vehicle = "I_HSGOCFac_CBRN_Specialist_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_CBRN_01";
-                    };
-                    class Unit4 {
-                        position[] = {-10,-10,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_CBRN_01";
-                    };
-                    class Unit5 {
-                        position[] = {15,-15,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_CBRN_01";
-                    };
-                    class Unit6 {
-                        position[] = {-15,-15,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_CBRN_01";
-                    };
-                    class Unit7 {
-                        position[] = {20,-20,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_CBRN_01";
-                    };
-                    class Unit8 {
-                        position[] = {-20,-20,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_HSGOCFac_Operator_CBRN_01";
+                        side = 2;
+                        vehicle = "I_HSGOCFac_CBRN_Specialist_01";
                     };
                 };
 
             };
 
             class SpecOps {
-                name = "SpecOps";
+                name = "Special Forces";
 
             };
 
             class Motorized {
-                name = "Motorized";
+                name = "Motorized Infantry";
 
             };
 
@@ -233,17 +153,17 @@ class CfgGroups {
             };
 
             class Support {
-                name = "Support";
+                name = "Support Infantry";
 
             };
 
             class Mechanized {
-                name = "Mechanized";
+                name = "Mechanized Infantry";
 
             };
 
             class Armored {
-                name = "Armored";
+                name = "Armor";
 
             };
 
@@ -291,19 +211,19 @@ class CfgVehicles {
         };
     };
 
-    class B_HSGOCFac_Operator_CBRN_01;
-    class B_HSGOCFac_Operator_CBRN_01_OCimport_01 : B_HSGOCFac_Operator_CBRN_01 { scope = 0; class EventHandlers; };
-    class B_HSGOCFac_Operator_CBRN_01_OCimport_02 : B_HSGOCFac_Operator_CBRN_01_OCimport_01 { class EventHandlers; };
+    class I_G_Soldier_F;
+    class I_G_Soldier_F_OCimport_01 : I_G_Soldier_F { scope = 0; class EventHandlers; };
+    class I_G_Soldier_F_OCimport_02 : I_G_Soldier_F_OCimport_01 { class EventHandlers; };
 
-    class B_HSGOCFac_Rifleman_01 : B_HSGOCFac_Operator_CBRN_01_OCimport_02 {
+    class I_HSGOCFac_Rifleman_01 : I_G_Soldier_F_OCimport_02 {
         author = "Schlopp";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman";
-        side = 1;
-        faction = "hs_goc_fac";
+        side = 2;
+        faction = "HS_GOC_Fac";
 
-        identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+        identityTypes[] = {"Head_Greek","LanguageGRE_F","G_GUERIL_default"};
 
         uniformClass = "HS_GOC_Fatigues";
 
@@ -333,15 +253,15 @@ class CfgVehicles {
 
     };
 
-    class B_HSGOCFac_CBRN_Specialist_01 : B_HSGOCFac_Operator_CBRN_01_OCimport_02 {
+    class I_HSGOCFac_CBRN_Specialist_01 : I_HSGOCFac_Rifleman_01 {
         author = "Schlopp";
         scope = 2;
         scopeCurator = 2;
         displayName = "CBRN Specialist";
-        side = 1;
-        faction = "hs_goc_fac";
+        side = 2;
+        faction = "HS_GOC_Fac";
 
-        identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+        identityTypes[] = {"Head_Greek","LanguageGRE_F","G_GUERIL_default"};
 
         uniformClass = "U_C_CBRN_Suit_01_Blue_F";
 

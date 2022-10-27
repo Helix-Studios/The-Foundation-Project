@@ -54,7 +54,7 @@ class CfgVehicles {
         editorSubcategory = "HS_APC";
         editorPreview = "\HS_SCP_Veh\Warrior_APC\Data\IFV_Preview.jpg";
         textureList[] = {"GOC", 1};
-        side = 1;
+        side = 2;
         crew = "B_Crew_F";
         typicalCargo[] = {"B_Crew_F"};
         hiddenSelectionsTextures[] = {

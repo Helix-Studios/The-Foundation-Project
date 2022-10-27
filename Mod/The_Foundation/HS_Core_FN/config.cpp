@@ -81,6 +81,10 @@ class CfgEditorSubcategories
 	{
 		displayName="Helicopters";
 	};
+	class HS_MEN
+	{
+		displayName="Men";
+	};
 	// SCP Classes
 	class HS_SCP_SECURITY
 	{

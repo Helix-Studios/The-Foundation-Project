@@ -53,7 +53,7 @@ class CfgVehicles {
         faction = "HS_GOC_Fac";
         editorSubcategory = "HS_APC";
         editorPreview = "\HS_SCP_Veh\Otokar_APC\Data\APC_Preview.jpg";
-        side = 1;
+        side = 2;
         crew = "B_Crew_F";     
         textureList[] = {"GOC", 1};
         hiddenSelections[] = {"camo1", "camo2", "camo3", "CamoNet", "CamoSlat"};
