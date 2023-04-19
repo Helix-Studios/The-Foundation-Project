@@ -3,7 +3,6 @@ class CfgPatches
   class HS_Core_FND
 	{
 		author = "Schlopp";
-		url = "https://discord.gg/92uxcyWmzp";
 		name = "The Foundation";
 		requiredAddons[] =
 		{
@@ -22,24 +21,24 @@ class cfgFactionClasses
         displayName = "SCP Foundation"; 
         priority = 2; // Position in list. 
         side = 1; // Opfor = 0, Blufor = 1, Indep = 2. 
-        flag = "\HS_UI_FN\Map\Markers\Flags\scp_ca.paa"; //Custom Flag 
-        icon = "\HS_UI_FN\Map\Markers\Flags\scp_ca.paa"; //Custom Icon 
+        flag = "\HS_Core_FN\FN_UI\Map\Markers\Flags\scp_ca.paa"; //Custom Flag 
+        icon = "\HS_Core_FN\FN_UI\Map\Markers\Flags\scp_ca.paa"; //Custom Icon 
     };
 	class HS_CI_Fac
     { 
         displayName = "Chaos Insurgency"; 
         priority = 2
         side = 0;
-        flag = "\HS_UI_FN\Map\Markers\Flags\ci_ca.paa";
-        icon = "\HS_UI_FN\Map\Markers\Flags\ci_ca.paa";
+        flag = "\HS_Core_FN\FN_UI\Map\Markers\Flags\ci_ca.paa";
+        icon = "\HS_Core_FN\FN_UI\Map\Markers\Flags\ci_ca.paa";
     };
 	class HS_GOC_Fac
     { 
         displayName = "Global Occult Coalition "; 
         priority = 2;
         side = 2; 
-		flag = "\HS_UI_FN\Map\Markers\Flags\goc_ca.paa";
-        icon = "\HS_UI_FN\Map\Markers\Flags\goc_ca.paa";
+		flag = "\HS_Core_FN\FN_UI\Map\Markers\Flags\goc_ca.paa";
+        icon = "\HS_Core_FN\FN_UI\Map\Markers\Flags\goc_ca.paa";
     };
 };
 
